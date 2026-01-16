@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>STAGING widget</title>
-  <meta name="description" content="STAGING widget embedded in restaurant website" />
+  <meta name="description" content="STAGING widget embedded in restaurant website [KWC Singapore]" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!--
   Important Note for Users:
@@ -17,7 +17,7 @@
     const params = new URL(document.location).searchParams;
     const script = document.createElement("script");
     script.src = "https://widgetstaging.letsumai.com/dist/embed.min.js";
-    script.setAttribute("data-api-key", params.get("apiKey") || "fccdb18c-349d-43bc-bc01-f845270dfc8e");
+    script.setAttribute("data-api-key", params.get("apiKey") || "3a8cf0ef-5554-4577-8790-deddfe883c15");
     script.setAttribute("data-widget-type", "reservation");
     document.head.appendChild(script);
   </script>
@@ -28,7 +28,7 @@ Its required to Copy and Paste this script into your website's HTML, in order fo
 Place it in either the <head> or <body> section of your website's HTML document. 
 Ensure that you only place this script once per page/website to avoid duplicate executions.
 -->
-<script src="https://widgetstaging.letsumai.com/dist/embed.min.js" data-api-key="fccdb18c-349d-43bc-bc01-f845270dfc8e" data-widget-type="reservation"></script>
+<script src="https://widgetstaging.letsumai.com/dist/embed.min.js" data-api-key="3a8cf0ef-5554-4577-8790-deddfe883c15" data-widget-type="reservation"></script>
 <script type="text/javascript">
 function init() {
   /**
@@ -53,7 +53,7 @@ function init() {
       link.addEventListener("click", function (e) {
         e.preventDefault();
         // Configure the `umaiWidget` with the provided `apiKey` and `widgetType`.
-        umaiWidget.config({ apiKey: "fccdb18c-349d-43bc-bc01-f845270dfc8e", widgetType: "reservation" });
+        umaiWidget.config({ apiKey: "3a8cf0ef-5554-4577-8790-deddfe883c15", widgetType: "reservation" });
         // Open the reservation widget modal when an element is clicked.
         umaiWidget.openWidget();
         return false;
@@ -69,7 +69,7 @@ function init() {
       link.addEventListener("click", function (e) {
         e.preventDefault();
         // Configure the `umaiWidget` with the provided `apiKey` and `widgetType`.
-        umaiWidget.config({ apiKey: "fccdb18c-349d-43bc-bc01-f845270dfc8e", widgetType: "giftcard" });
+        umaiWidget.config({ apiKey: "3a8cf0ef-5554-4577-8790-deddfe883c15", widgetType: "giftcard" });
         // Open the giftcard widget modal when an element is clicked.
         umaiWidget.openWidget();
         return false;
@@ -85,7 +85,7 @@ function init() {
       link.addEventListener("click", function (e) {
         e.preventDefault();
         // Configure the `umaiWidget` with the provided `apiKey` and `widgetType`.
-        umaiWidget.config({ apiKey: "fccdb18c-349d-43bc-bc01-f845270dfc8e", widgetType: "takeaway" });
+        umaiWidget.config({ apiKey: "3a8cf0ef-5554-4577-8790-deddfe883c15", widgetType: "takeaway" });
         // Open the takeaway widget modal when an element is clicked.
         umaiWidget.openWidget();
         return false;
